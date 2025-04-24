@@ -15,7 +15,7 @@ def dog():
     return 'This is the Dog Page!'
 
 @app.route('/elephant')
-def dog():
+def elephant():
     return 'This is the elephant Page!'
 
 if __name__ == '__main__':
