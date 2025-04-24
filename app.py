@@ -14,5 +14,9 @@ def cat():
 def dog():
     return 'This is the Dog Page!'
 
+@app.route('/elephant')
+def dog():
+    return 'This is the elephant Page!'
+
 if __name__ == '__main__':
      app.run(host='0.0.0.0', port=5000, debug=True)
