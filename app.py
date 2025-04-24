@@ -18,5 +18,10 @@ def dog():
 def elephant():
     return 'This is the elephant Pages'
 
+
+@app.route('/tiger')
+def tiger():
+    return "This is Tiger Page"
+
 if __name__ == '__main__':
      app.run(host='0.0.0.0', port=5000, debug=True)
